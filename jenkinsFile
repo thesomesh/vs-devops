@@ -1,0 +1,46 @@
+pipeline{
+
+agent any
+
+
+stages {
+
+
+  stage("build"){
+ 
+    step{
+        echo"This is a build stage "
+     }
+  }
+
+  stage("test"){
+ 
+    step{
+        echo"This is a test stage "
+    }
+  }
+
+
+
+  stage("deploy"){
+ 
+    step{
+        echo"This is a deploy stage "
+    }
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+}
